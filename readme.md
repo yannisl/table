@@ -19,17 +19,49 @@ In the examples I have used some `.sty` files from the `phd` package. These can 
 
 The rest of the packages can all be found in standard LaTeX2e distributions.
 
+
+## Setting-up the go file
+
+The table package, and I know is not a sexy name, can simply be imported using the `import` statement. See
+the example files.
+
+A new table is created by:
+
+```[Go]
+	r := table.New()
+```
+
+This will initialize a set of default properties for the processor.
+
+### Cleaning the data
+
+Files exported to .csv, especially from excel might need a preprocessing stage, where the data is cleaned
+and escaped. This can be done in a singlr operation using:
+
+```[Go]
+	r.Clean("<filepath>")
+```
+
+
+
+
 ```[Go]
 func ExampleSmart() {
 	r := table.New()
 
-	r.Clean("smartstatus.csv") //"j56.csv") //"j56.csv")"sub.csv"
+	r.Clean("smartstatus.csv") 
 	r.Caption("Smart City", "Current Smart City Cost Commitments")
 	r.RefLabel("smartsystems")
-	// Work on settings.csv.
-	//r.SkipFirstN(1).csv
+
+	// Skips the first N lines
 	r.SkipN = 1
+
+	// Present table sections
 	r.HasSections = true
+
+	// A line consisting of only empty lines
+	// is translated to either an empty row or 
+	// a rule
 	r.EmptyToLine = true
 
 	r.Header.M = [][]string{
