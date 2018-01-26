@@ -1,0 +1,2382 @@
+code	descr1	desc2                    
+C0000     	CIVIL MTR           	CIVIL MATERIALS AND EQUIPMENT (CIVIL)                       
+C8100     	METAL SECTIONS      	METAL SECTIONS (CIVIL)                                      
+C8200     	BUILDING MATERIALS  	BUILDING MATERIALS (CIVIL)                                  
+C8300     	PAINT&FINISHING MAT 	"PAINTS, PAINTING & FINISHING MATERIALS (CIVIL)              "
+C8350     	SIGNS AND LABELS    	"NAMEPLATES, LABELS, IDENTIFICATION SIGNS (CIVIL)            "
+C8400     	STEEL WORK & SCAFLD 	STRUCTURAL STEELWORK & SCAFFOLDING (CIVIL)                  
+E6100     	CONDS & ACCESSORIES 	CONDUITS & ACCESSORIES (ELECTRICAL)                         
+E6101     	COND. PVC & ACC'S   	COND. PVC & ACC'S (WIRE & E.D.) (ELECTRICAL)                
+E6102     	COND PVC FLEXIBLE   	CONDUIT PVC FLEXIBLE & ACC'S (ELECTRICAL)                   
+E6103     	FLOOR BOXES PVC     	FLOOR BOXES PVC (ELECTRICAL)                                
+E6125     	MARKING WARNING TAPE	MARKING / WARNING TAPE (ELECTRICAL)                         
+E6131     	COND STEEL & ACC'S  	"CONDUIT STEEL, IMC/RIGID & ACC'S (ELECTRICAL)               "
+E6132     	COND STEEL FLEXIBLE 	CONDUIT STEEL FLEXIBLE & ACC'S (ELECTRICAL)                 
+E6133     	FLOOR BOXES STEEL   	FLOOR BOXES STEEL (ELECTRICAL)                              
+E6134     	COND STEEL FLEX.LIQD	CONDUIT STEEL FLEX.LIQD. TYPE & ACC'S (ELECTRICAL)          
+E6135     	COND EMT & ACC'S    	CONDUIT EL. METAL TUBING & ACC'S (ELECTRICAL)               
+E6145     	MANHOLE FITT & ACC'S	MANHOLE FITTINGS & ACC'S (ELECTRICAL)                       
+E6151     	TRUNKING & ACC STEEL	TRUNKING & FITTINGS STEEL (ELECTRICAL)                      
+E6151.1   	GI SUPPORTS         	GI SUPPORTS FOR TRUNKING (ELECTRICAL)                       
+E6152     	SKIRTING TRUNKING   	SKIRTING TRUNKING (ELECTRICAL)                              
+E6153     	UNDERFLOOR DUCT UPVC	UNDERFLOOR DUCT SYSTEM & ACC'S (UPVC) (ELECTRICAL)          
+E6161     	CABLE TRAYS & LADDER	CABLE TRAYS & LADDERS (ELECTRICAL)                          
+E6162     	CABLE BASKET TRAY   	CABLE BASKET TRAY (ELECTRICAL)                              
+E6163     	GI SUPPORTS FOR TRAY	GI SUPPORTS FOR TRAYS (ELECTRICAL)                          
+E6164     	LIGHTING FIXT HANGER	LIGHTING FIXTURES HANGER (ELECTRICAL)                       
+E6170     	PREWIRED CONDUIT SYS	PREWIRED CONDUIT SYSTEM (ELECTRICAL)                        
+E6180     	ELECTRICAL SUNDRIES 	ELECTRICAL SUNDRIES (ELECTRICAL)                            
+E6200     	LV WIRE & CABLES    	LV WIRE & CABLES (ELECTRICAL)                               
+E6201     	HV CABLES           	HV CABLES (ELECTRICAL)                                      
+E6211     	HV CABLES TERM.     	HV CABLES TERMINATIONS (ELECTRICAL)                         
+E6221     	CABLES M.V.         	CABLES M.V. (ELECTRICAL)                                    
+E6222     	CABLES L.V.         	CABLES L.V. (ELECTRICAL)                                    
+E6225     	FIRE PROOF CABLES   	FIRE PROOF CABLES (FP200/400) (ELECTRICAL)                  
+E6226     	MISC SYS WIRES      	MISC SYSTEM WIRES (ELECTRICAL)                              
+E6230     	HEAT RESISTAN. CABLE	HEAT RESISTANCE CABLES (ELECTRICAL)                         
+E6235.1   	M.V. CABLE TERMINATN	M.V. CABLE TERMINATIONS - GLANDS & LUGS (ELECTRICAL)        
+E6235.2   	L.V. CABLE TERMINATN	L.V. CABLE TERMINATIONS - GLANDS & LUGS (ELECTRICAL)        
+E6236     	CABLE TIES          	CABLE TIES                                                  
+E6240     	COND & ACC O/H LINES	CONDUIT & ACC'S FOR O/H LINES (ELECTRICAL)                  
+E6245     	WIRING CABLES       	WIRING CABLES (BRANCH CIRCUIT) (ELECTRICAL)                 
+E6250     	TELEPHONE CABLES    	TELEPHONE CABLES (ELECTRICAL)                               
+E6250.1   	EPAX SYS            	EPAX SYSTEM (ELECTRICAL)                                    
+E6255     	DATA CABLES         	DATA CABLES (ELECTRICAL)                                    
+E6256     	TERM. CAB. TEL.SYS  	TERMINAL CAB. FOR TELEPHONE SYSTEMS (ELECTRICAL)            
+E6260     	COAXIAL CABLES      	COAXIAL CABLES (ELECTRICAL)                                 
+E6265     	COAXIAL CABLE ACC.  	COAXIAL CABLE ACCESSORIES (ELECTRICAL)                      
+E6266     	MATV SYS            	MATV SYSTEM CAB. S/T-OFF UNIT (ELECTRICAL)                  
+E6270     	CONTROL CABLES      	CONTROL / SIGNAL WIRES (ELECTRICAL)                         
+E6275     	MICC CABLES         	MICC CABLES (ELECTRICAL)                                    
+E6276     	FLEXIBLE CABLES     	FLEXIBLE CABLES (ELECTRICAL)                                
+E6280     	DATA SYS            	DATA SYSTEM (ELECTRICAL)                                    
+E6300     	PANEL CIRCUIT BREAK.	PANELS CIRCUIT BREAKERS (ELECTRICAL)                        
+E6301     	MAIN SWITCHBOARDS   	MAIN SWITCHBOARDS (ELECTRICAL)                              
+E6302     	SUBMAIN SWITCHBOARDS	SUBMAIN SWITCHBOARDS (ELECTRICAL)                           
+E6303     	LOAD CENTRES (RMU)  	LOAD CENTRES (RING MAIN UNITS) (ELECTRICAL)                 
+E6304     	PAR. CON. (GMDB)    	PARALLELING CONTROL PANELS (GMDB) (ELECTRICAL)              
+E6305     	CONTROL PANEL (HVAC)	CONTROL PANELS (HVAC) (ELECTRICAL)                          
+E6306     	COPPER / BRASS SHEET	COPPER / BRASS SHEET (ELECTRICAL)                           
+E6307     	VFD                 	VARIABLE FREQUENCY DRIVES (ELECTRICAL)                      
+E6308     	DISTRIBUTION BOARDS 	DISTRIBUTION BOARDS (ELECTRICAL)                            
+E6310     	MOTOR CONTROL CENTRE	MOTOR CONTROL CENTRES (ELECTRICAL)                          
+E6311     	MOTOR STARTERS      	MOTOR STARTERS (ELECTRICAL)                                 
+E6312     	PFCB                	POWER FACTOR CORRECTION BANK (ELECTRICAL)                   
+E6313     	AIR CIRCUIT BREAKERS	AIR CIRCUIT BREAKERS (ELECTRICAL)                           
+E6320     	MAIN SWITC.  BREAKER	MAIN SWITCHES / BREAKER FUSES (ELECTRICAL)                  
+E6321     	ISOLAT. POWER SUPPLY	ISOLATED POWER SUPPLIES (ELECTRICAL)                        
+E6322     	ISOLATORS SWITCHES  	ISOLATORS SWITCHES (ELECTRICAL)                             
+E6325     	FLOAT SWITCHES      	FLOAT SWITCHES (ELECTRICAL)                                 
+E6333     	EMERGENCY PUSH BUTT.	EMERGENCY PUSH BUTTON (ELECTRICAL)                          
+E6334.1   	AUTO TESTING PANELS 	AUTOMATIC TESTING PANELS (ELECTRICAL)                       
+E6400     	LIGHTING FIXTURES   	LIGHTING FIXTURES (ELECTRICAL)                              
+E6401     	INTERNAL LIGHTING   	INTERNAL LIGHTING FIXTURES (ELECTRICAL)                     
+E6402     	STAGE LIGHTING      	STAGE LIGHTING (ELECTRICAL)                                 
+E6403     	CHANDELIERS         	CHANDELIERS (ELECTRICAL)                                    
+E6431     	STREET/WALK LIGHTING	STREET / WALKWAY LIGHTING FIXTURES (ELECTRICAL)             
+E6432     	EXTERNAL LIGHTING   	EXTERNAL LIGHTING FIXTURES (ELECTRICAL)                     
+E6433     	EMERGENCY LIGHTS CBS	EMERGENCY LIGHTS CENTRAL BATTERY SYSTEM (ELECTRICAL)        
+E6434     	EMERGENCY LIGHTS NR 	EMERGENCY LIGHTS (PLAIN) (ELECTRICAL)                       
+E6434.1   	AUTO TESTING PANELS 	AUTOMATIC TESTING PANELS (ELECTRICAL)                       
+E6435     	FLOODLIGHTS         	FLOODLIGHTS (ELECTRICAL)                                    
+E6437     	BOLLARD FITTINGS    	BOLLARD FITTINGS (ELECTRICAL)                               
+E6438     	UNDER WTR LIGHTING  	UNDER WATER LIGHTING FIXTURE (ELECTRICAL)                   
+E6440     	LIGHT CONTROL GEAR  	LIGHTING FIXTURES CONTL. GEARS (ELECTRICAL)                 
+E6441     	EX LIGHT FIXTURES   	EXPLOSION PROOF LIGHT FIXTURES (ELECTRICAL)                 
+E6442     	LAMPS               	LAMPS (ELECTRICAL)                                          
+E6445     	DIMMER CONTROL SYS  	DIMMER CONTROL SYSTEM (ELECTRICAL)                          
+E6446     	LIGHTING CONTROL SYS	LIGHTING CONTROL SYSTEM (ELECTRICAL)                        
+E6450     	AIR FIELD LIGHTING  	AIR FIELD LIGHTING FIXTURES (ELECTRICAL)                    
+E6451     	TAXI / RUNWAY SIGNS 	TAXI / RUNWAY SIGNS (ELECTRICAL)                            
+E6452     	PRECI. APP. PATH    	PRECI. APP. PATH INDICATORS (ELECTRICAL)                    
+E6453     	AIRCRAFT WARNING    	AIRCRAFT WARNING LIGHTS (ELECTRICAL)                        
+E6457     	RUNWAY PAVE. SEAL.  	RUNWAY PAVE. SEAL. ADHESIVE (ELECTRICAL)                    
+E6458     	CONSTANT CURRENT REG	CONSTANT CURRENT REGULATOR (ELECTRICAL)                     
+E6459     	AIRFIELD LRC.SY MDB 	AIRFIELD L.R.C.SY.MAIN PANELS (ELECTRICAL)                  
+E6460     	WIND CONES          	WIND CONES (ELECTRICAL)                                     
+E6461     	WIND TEE            	WIND TEE (ELECTRICAL)                                       
+E6500     	SYSS EQUIPMENT      	SYSTEMS EQUIPMENT (ELECTRICAL)                              
+E6501     	FIRE ALARM SYSS EQP.	FIRE ALARM SYSTEMS EQUIPMENT (ELECTRICAL)                   
+E6502     	FIRE ALARM PANELS   	FIRE ALARM CONTROL PANELS (ELECTRICAL)                      
+E6503     	SMOKE DETECTOR      	SMOKE DETECTOR (ELECTRICAL)                                 
+E6504     	FIRE DETECTOR       	FIRE DETECTOR (ELECTRICAL)                                  
+E6505     	MANUAL PULL STATION 	MANUAL PULL STATION (ELECTRICAL)                            
+E6506     	AV ALARM U.         	AUDIO AND VISUAL ALARM U. (ELECTRICAL)                      
+E6507     	STRUCTURE CABLING   	STRUCTURE CABLING (ELECTRICAL)                              
+E6508     	TELEP. IP SYS (TOIP)	TELEPHONE OVER IP SYSTEM (TOIP) (ELECTRICAL)                
+E6509     	IP TV SYS (IPTV)    	IP TELEVISION SYSTEM (IPTV) (ELECTRICAL)                    
+E6510     	MASTER CLOCK SYS    	MASTER CLOCK & PRO. SYSTEM EQP. (ELECTRICAL)                
+E6511     	PLUG-IN CLOCKS      	PLUG-IN CLOCKS (ELECTRICAL)                                 
+E6520     	TELEPHONE SYS EQP   	TELEPHONE SYSTEM EQUIPMENT (ELECTRICAL)                     
+E6521     	TELEPHONE SETS      	TELEPHONE SETS (ELECTRICAL)                                 
+E6522     	VIDEO DOOR PHONE    	VIDEO DOOR PHONE (ELECTRICAL)                               
+E6523     	PV MOBILE RADIO SYS 	PRIVATE MOBILE RADIO SYSTEM (ELECTRICAL)                    
+E6524     	EX PROOF TELEPHONES 	EXPLOSION PROOF TELEPHONES (ELECTRICAL)                     
+E6525     	INTERCOM SYS        	INTERCOM SYSTEM (ELECTRICAL)                                
+E6526     	INTERCOM MASTER STN 	INTERCOM MASTER STATION (ELECTRICAL)                        
+E6527     	LANGUAGE LAB EQP    	LANGUAGE LABORATORY EQUIPMENT (ELECTRICAL)                  
+E6528     	INTERCOM CONTROLLER 	INTERCOM CONTROLLER (ELECTRICAL)                            
+E6530     	PUBLIC ADDRESS SYS  	PUBLIC ADDRESS SYSTEM EQUIPMENT (ELECTRICAL)                
+E6535     	AUDIO VISUAL SYS    	AUDIO VISUAL SYSTEM (ELECTRICAL)                            
+E6536     	HOME AUTOMATION     	HOME AUTOMATION (ELECTRICAL)                                
+E6537     	MOTION DETECTORS    	MOTION DETECTORS (ELECTRICAL)                               
+E6540     	TV / RADIO SYSS EQP 	TV / RADIO SYSTEMS EQUIPMENT (ELECTRICAL)                   
+E6541     	MASTER ANTENNA      	MASTER ANTENNA (SMATV) (ELECTRICAL)                         
+E6543     	WIRELESS ANTENNA    	WIRELESS ANTENNA                                            
+E6545     	PROJECTION EQUIPMENT	PROJECTION EQUIPMENT (ELECTRICAL)                           
+E6550     	BURGLAR ALARM SYSS  	BURGLAR ALARM SYSTEMS EQUIPMENT (ELECTRICAL)                
+E6554     	CAR PARK MANAGEMENT 	CAR PARK MANAGEMENT  (ELECTRICAL)                           
+E6555     	CARD ACCESS CONTROL 	CARD ACCESS CONTROL (ELECTRICAL)                            
+E6556     	CCTV SYS            	CCTV SYSTEM (ELECTRICAL)                                    
+E6557     	PNEUMATIC TUBE SYS  	PNEUMATIC TUBE SYSTEM (ELECTRICAL)                          
+E6560     	CALL SYSS EQUIPMENT 	CALL SYSTEMS EQUIPMENT (ELECTRICAL)                         
+E6565     	WIRELESS PAG.S      	SIGNALING WIRELESS PAG.S (ELECTRICAL)                       
+E6570     	MALFUN. SECU. & A.S.	MALFUN. SECU. ANNUNTOR & A.S. (ELECTRICAL)                  
+E6571     	REMOTE HAZARD IND   	REMOTE HAZARD INDICATOR ALARM (ELECTRICAL)                  
+E6575     	BOOK DETECTION SYS  	BOOK DETECTION SYSTEM (ELECTRICAL)                          
+E6579     	DATA NETWORK & WIFI 	DATA NETWORK EQUIP. & WIRELESS LAN (ELECTRICAL)             
+E6580     	SCOREBOARDS         	SCOREBOARDS (ELECTRICAL)                                    
+E6581     	CUSS SYS            	COMMON USE OF SELF SERVICE (CUSS) (ELECTRICAL)              
+E6582     	CUPPS SYS           	COMMON USE OF PASSENGER PROCESSING SYS (CUPPS) (ELECTRICAL) 
+E6585     	COMPUTER & ACC'S    	COMPUTER & ACC'S (ELECTRICAL)                               
+E6586     	SCADA SYS           	SCADA SYSTEM (ELECTRICAL)                                   
+E6587     	AIRCRAFT SERV PITS  	AIRCRAFT SERVICE PITS (ELECTRICAL)                          
+E6590     	SPL. SIGNAL CON. SYS	SPL. SIGNAL CONTROL SYSTEM (ELECTRICAL)                     
+E6591     	AODB SYS            	AIRPORT OPERATIONS DATA BASE (AODB) (ELECTRICAL)            
+E6592     	IASS SYS            	INTERGRATED AIRCRAFT STAND SYSTEM (IASS) (ELECTRICAL)       
+E6593     	RMS SYS             	RESOURCE MANAGEMENT SYSTEM (RMS) (ELECTRICAL)               
+E6594     	THERMAL ENERGY METER	THERMAL ENERGY METER (ELECTRICAL)                           
+E6595     	BMS                 	BUILDING MANAGEMENT SYSTEM (ELECTRICAL)                     
+E6596     	VGDS SYS            	VISUAL GUIDANCE DOCKING SYSTEM (VGDS) (ELECTRICAL)          
+E6597     	400Hz GPU           	400HZ GROUND POWER SYSTEM (ELECTRICAL)                      
+E6598     	FIDS SYS            	FLIGHT INFO DISPLAY SYSTEM (FIDS) (ELECTRICAL)              
+E6599     	INFORMATION KIOSK   	INFORMATION KIOSK (ELECTRICAL)                              
+E6600     	GENERATORS EQP      	GENERATORS & RELATED EQUIPMENT (ELECTRICAL)                 
+E6601     	GENERATORS ACCS     	GENERATORS MECHANICAL ACC'S (ELECTRICAL)                    
+E6602     	GENERATORS ELC ACC'S	GENERATORS ELECTRICAL ACC'S (ELECTRICAL)                    
+E6603     	GROUND POWER UNITS  	GROUND POWER UNITS                                          
+E6610     	ATS                 	AUTO-TRANSFER SWITCHES (ELECTRICAL)                         
+E6625     	BATTERIES           	BATTERIES (ELECTRICAL)                                      
+E6626     	CENTRAL BATTERY SYS 	CENTRAL BATTERY SYSTEM (ELECTRICAL)                         
+E6650     	UPS                 	UNINTER. POWER SUPPLY SYSTEM (ELECTRICAL)                   
+E6660     	BED HEAD UNITS      	BED HEAD UNITS (ELECTRICAL)                                 
+E6661     	PHOTOCELLS          	PHOTOCELLS (ELECTRICAL)                                     
+E6700     	ELEC DIST SYS EQUIP.	ELECTRICAL DISTR. SYSTEMS EQUIPMENT (ELECTRICAL)            
+E6701     	HV SWITCHGEARS      	H.V. METAL ENCLOSURE SWITCHGEARS (ELECTRICAL)               
+E6702     	HV METAL ENCL SWITCH	H.V. METAL ENCLOSURE SWITCH PM. (ELECTRICAL)                
+E6703     	KWH METER ENCLOSURE 	KWH METER ENCLOSURE (ELECTRICAL)                            
+E6704     	PACKAGE SUBSTATION  	PACKAGE SUBSTATION (ELECTRICAL)                             
+E6706     	POWER XFORMERS      	POWER XFORMERS PADM. (O/DR) (ELECTRICAL)                    
+E6707     	DRY TYPE TRANSFORMER	DRY TYPE TRANSFORMERS (ELECTRICAL)                          
+E6710     	L.V. FEEDER PILLARS 	L.V. FEEDER PILLARS / PEDLS (ELECTRICAL)                    
+E6715     	H.V. AUTOMATION SYS 	H.V. AUTOMATION SYSTEM (ELECTRICAL)                         
+E6720     	BUSWAY / BUSBAR SYSS	BUSWAY / BUSBAR SYSTEMS (ELECTRICAL)                        
+E6730     	POWER METERS        	POWER METERS (ELECTRICAL)                                   
+E6740     	VOLTAGE REGULATORS  	VOLTAGE REGULATORS (ELECTRICAL)                             
+E6750     	GROUNDING & LIGHNG. 	GROUNDING & LTG PROTECTION SYSTEM (ELECTRICAL)              
+E6751     	GROUNDING REELS     	GROUNDING REELS (ELECTRICAL)                                
+E6760     	CATHODIC PROTECTION 	CATHODIC PROTECTION (ELECTRICAL)                            
+E6800     	WIRING ACCESSORIES  	WIRING ACCESSORIES (ELECTRICAL)                             
+E6801     	MOBILE X-RAY RECEPT.	MOBILE X-RAY RECEPTACLE (ELECTRICAL)                        
+E6802     	ISOLATORS           	ISOLATORS (ELECTRICAL)                                      
+E6803     	EX. WIRRING ACCESS. 	EXPLOSION PROOF WIRRING ACCESSORIES (ELECTRICAL)            
+E6804     	SPARK PROOF W. ACCS.	SPARK PROOF WIRRING ACCESSORIES (ELECTRICAL)                
+E6810     	GOLD PLATED W. ACCS.	GOLD PLATED WIRING ACC'S (ELECTRICAL)                       
+E6820     	"BELLS, BUZZ. & CHIME"	"BELLS, BUZZ. & CHIME DEVICES (ELECTRICAL)                   "
+E6900     	EL. APPLIA/MOTORS   	EL. APPLIANCES & MOTORS (ELECTRICAL)                        
+E6901     	LIFTS & ELEVATORS   	ELECTRIC LIFTS & ELEVATORS (ELECTRICAL)                     
+E6910     	HAND DRYERS         	HAND DRYERS (ELECTRICAL)                                    
+E6915     	ELEC. INSECT KILLERS	ELECTRIC INSECT KILLERS (ELECTRICAL)                        
+E6920     	REFRIGERATORS       	REFRIGERATORS (ELECTRICAL)                                  
+E6925     	WATER COOLERS       	WATER COOLERS (ELECTRICAL)                                  
+E6930     	DRINKING FOUNTAIN   	CENTL. CHILL. F. DRINKING FOUNTAIN (ELECTRICAL)             
+E6940     	ELECTRICAL MATTING  	ELECTRICAL MATTING (ELECTRICAL)                             
+E7000     	POLES               	POLES (ELECTRICAL)                                          
+E7005     	OVERHEAD WORK PLATF.	OVERHEAD WORK PLATFORM (ELECTRICAL)                         
+E7010     	POLES STEEL         	POLES STEEL (ELECTRICAL)                                    
+E7011     	MASTS STEEL         	MASTS STEEL (ELECTRICAL)                                    
+E7020     	POLES ALUMINIUM     	POLES ALUMINIUM (ELECTRICAL)                                
+E7030     	POLES WOODEN        	POLES WOODEN (ELECTRICAL)                                   
+E7035     	POLES FIBREGLASS    	POLES FIBREGLASS (ELECTRICAL)                               
+E7038     	RELAMPING POLES     	RELAMPING POLES (ELECTRICAL)                                
+E7040     	POLES SAUNDRIES     	POLES SAUNDRIES (ELECTRICAL)                                
+E8000     	TRAFFIC BARRIER     	TRAFFIC BARRIER (ELECTRICAL)                                
+E9400     	TEST EQUIPMENT EL.  	TEST EQUIPMENT EL. (ELECTRICAL)                             
+E9500     	ELECTRICAL TOOLS    	ELECTRICAL TOOLS (ELECTRICAL)                               
+G0000     	GARAGE SPARE PARTS  	GARAGE SPARE PARTS TOOLS AND EQUIPMENT (GARAGE)             
+G1000     	VEHICLES SPARE PARTS	VEHICLES SPARE PARTS (GARAGE)                               
+G1500     	PLANT SPARE PARTS   	PLANT SPARE PARTS (GARAGE)                                  
+G1600     	GARAGE TOOL & EQUIP.	GARAGE TOOLS AND EQUIPMENT (GARAGE)                         
+G8450.1   	IDENF. OF SERV HVAC 	IDENTIFICATION OF SERVICES (HVAC)                           
+G8450.2   	IDENF. OF SERV PLM  	IDENTIFICATION OF SERVICES (PLUMBING)                       
+G8450.3   	IDENF. OF SERV EL   	IDENTIFICATION OF SERVICES (ELECTRICAL)                     
+G9101     	TESTING & COMMISION 	TESTING & COMMISIONING (GENERAL)                            
+G9102     	O&M MANUALS         	O&M MANUALS (GENERAL)                                       
+G9103     	TRAINING            	TRAINING (GENERAL)                                          
+G9104     	COMMISSION MANAGMENT	COMMISSIONING MANAGMENT  (GENERAL)                          
+G9200     	"WKSP,STR,SHED & YARD"	"WORKSHOP, STORES, SHEDS & OPEN YARDS (GENERAL)              "
+G9201     	FF&E FOR OFFICE/SITE	FF&E FOR OFFICES AND SITE ESTABLISHMENTS (GENERAL)          
+G9202     	GENERAL CONSUMABLES 	GENERAL CONSUMABEL ITEMS (GENERAL)                          
+G9203     	TELEPHONE BILLS     	TELEPHONE BILLS (GENERAL)                                   
+G9204     	WATER & ELEC. OFFICE	WATER AND ELECTRICITY FOR OFFICE (GENERAL)                  
+G9205     	OFFICE RENT & STORES	OFFICE RENT & STORES (GENERAL)                              
+G9206     	CAFETERIA ITEMS     	CAFETERIA ITEMS / SOFT DRINKS (GENERAL)                     
+G9207     	MOBILE PHONE BILLS  	MOBILE PHONE BILLS (GENERAL)                                
+G9208     	INTERNET CHARGES    	INTERNET CONNECTION NEW / SUBSCRIPTION CHARGES  (GENERAL)   
+G9209     	COMPUTER CONSUMABLES	COMPUTER CONSUMABLES SOFTWARE/HARWARE (GENERAL)             
+G9300     	PPE                 	PPE (GENERAL)                                               
+G9400     	PRINT & STATIONERY  	PRINTING & STATIONERY (GENERAL)                             
+G9401     	POSTAGE & CURRIER   	POSTAGE & CURRIER (GENERAL)                                 
+G9500     	GENERAL & TOOLS     	GENERAL & TOOLS (GENERAL)                                   
+G9501     	MEP CONSUMABLES     	MEP CONSUMABLES                                             
+G9600     	TRANSP& CLEAR CHARGE	TRANSPORATATION & CLEARING CHARGES (GENERAL)                
+M0000     	MECH. MATR & EQUIP. 	MECHANICAL MATERIALS AND EQUIPMENT (MECHANICAL)             
+M4000     	MEDICAL GAS SYS     	MEDICAL GAS SYSTEM (SUBCONTRACT)                            
+M4005     	GAS SERVICE OUTLETS 	GAS SERVICE OUTLETS (MEDICAL)                               
+M4010     	GAS PRS SIGNL SWITCH	GAS PRESSURE SIGNAL SWITCH (MEDICAL)                        
+M4012     	MULTI SERV WALL CAB 	MULTI SERVICE WALL CABINET (MEDICAL)                        
+M4015     	SURGERY CEILING CLM 	SURGERY CEILING COLUMN (MEDICAL)                            
+M4020     	VACUUM SWITCH       	VACUUM SWITCH (MEDICAL)                                     
+M4025     	FREE STAND MANIFOLD 	FREE STANDING MANIFOLD (MEDICAL)                            
+M4200     	DUCT INSULATION     	DUCT INSULATION (HVAC)                                      
+M4201     	DUCT FLEX INSULT.   	DUCT FLEXIBLE FACED INSULATION (MECHANICAL)                 
+M4202     	DUCT RIGID INSULT.  	DUCT RIGID FACED INSULATION (MECHANICAL)                    
+M4203     	DUCT RIGID UNFACED  	DUCT RIGID PLAIN INSULATION (MECHANICAL)                    
+M4205     	ACOUSTIC INSULATION 	ACOUSTIC INSULATION (HVAC)                                  
+M4206     	INSULATION ADHESIVES	INSULATION ADHESIVES (HVAC)                                 
+M4207     	INSUL. FASTENERS    	INSULATION MECHANICAL FASTENERS (MECHANICAL)                
+M4208     	ADHESIVE TAPES      	ADHESIVE TAPES (HVAC)                                       
+M4209     	CALICO MATERIAL     	CALICO MATERIAL (HVAC)                                      
+M4211     	INSULATION COATINGS 	INSULATION COATINGS (HVAC)                                  
+M4322     	SILENCERS           	SILENCERS (HVAC)                                            
+M5100     	AC EQUIPMENT        	AIRCONDITIONING EQUIPMENT (MECHANICAL)                      
+M5101     	CHILLERS            	CHILLERS (HVAC)                                             
+M5105     	PACKAGE UNITS       	PACKAGE UNITS (MECHANICAL)                                  
+M5106     	CLOSE CONTROL UNITS 	CLOSE CONTROL UNITS (HVAC)                                  
+M5110     	AIR HANDLING UNITS  	AIR HANDLING UNITS (HVAC)                                   
+M5111     	MAKE UP UNITS       	MAKE UP UNITS (HVAC)                                        
+M5112     	THERMAL WHEEL ERU   	THERMAL WHEEL HEAT RECOVERY SYSTEM (HVAC)                   
+M5113     	AIR TO AIR ERU      	AIR TO AIR ENERGY RECOVERY UNITS (HVAC)                     
+M5115     	WINDOW AC UNITS     	THROUGH WALL AIR CONDITIONING UNITS (HVAC)                  
+M5119     	PCA                 	PRECONDITIONING AIR UNITS (PCA) (HVAC)                      
+M5120     	FAN COIL UNITS      	FAN COIL UNITS (HVAC)                                       
+M5125     	SPLIT AC UNITS      	SPLIT AIR CONDITIONING UNITS (HVAC)                         
+M5130     	DUCT MNT. EL. HEATER	DUCT MOUNTED ELECTRIC HEATER BATTERIES (MECHANICAL)         
+M5135     	WALL MNT. EL. HEATER	ELECTRIC WALL MOUNTED AIR HEATERS (MECHANICAL)              
+M5138     	PACKAGE HEATPUMPS   	PACKAGE HEATPUMPS (MECHANICAL)                              
+M5140     	HUMIDIFIERS         	HUMIDIFIERS (MECHANICAL)                                    
+M5141     	DEHUMIDIFIERS       	DEHUMIDIFIERS (MECHANICAL)                                  
+M5145     	COOLING COILS       	COOLING COILS (MECHANICAL)                                  
+M5150.1   	VIBRATION ISOLATORS 	INERTIA BASES / VIBRATION ABSORBERS (HVAC)                  
+M5150.2   	VIBRATION ISOLATORS 	INERTIA BASES / VIBRATION ABSORBERS (PLUMBING)              
+M5160     	HVAC CONTROLS       	"HVAC CONTROLS (SENSORS, CONTROLLERS, ACTUATORS, THST) (HVAC)"
+M5161     	HVAC CONTROL PANELS 	HVAC CONTROL PANELS (HVAC)                                  
+M5162     	AIR FLOW METER      	"AIR FLOW METER, DUCT MOUNTED (MECHANICAL)                   "
+M5200     	VENTILATION EQUIP.  	VENTILATION EQUIPMENT (MECHANICAL)                          
+M5201     	FANS                	ROOF/WALL MOUNTED EXHAUST/SUPPLY FANS (HVAC)                
+M5201.1   	JET FANS W/ CFD ANLY	JET FANS WITH CFD ANALYSIS                                  
+M5202     	PROPELLER FANS      	PROPELLER FANS (MECHANICAL)                                 
+M5206     	IN LINE FANS        	IN LINE FANS (MECHANICAL)                                   
+M5210     	AEROFOIL AXIAL FANS 	AEROFOIL AXIAL FANS (MECHANICAL)                            
+M5211     	WALL MNT. FANS      	WALL MOUNTED AIR CIRCULATION FANS (MECHANICAL)              
+M5215     	CEILING MNT. FANS   	CEILING MOUNTED AIR CIRCULATION FANS (MECHANICAL)           
+M5220     	TURBINE VENTILATORS 	TURBINE VENTILATORS (MECHANICAL)                            
+M5225     	AIR CURTAINS        	AIR CURTAINS (HVAC)                                         
+M5230     	AIR FILTERS         	AIR FILTERS (MECHANICAL)                                    
+M5231     	SAW DUST SYSS ACCES.	SAW DUST SYSTEMS ACCESSORIES (MECHANICAL)                   
+M5232     	HEPA FILTERS DUCTED 	HEPA FILTERS (DUCTED) (HVAC)                                
+M5234     	SPARK ARRESTORS     	SPARK ARRESTORS (MECHANICAL)                                
+M5235     	AIR WASHERS         	AIR WASHERS (MECHANICAL)                                    
+M5240     	FUME EXHAUST SYSS   	FUMES EXHAUST SYSTEMS ACCESSORIES (MECHANICAL)              
+M5250     	ODOUR FILTERATION   	ODOUR FILTERATION UNITS (MECHANICAL)                        
+M5251     	ECOLOGY UNITS       	ECOLOGY UNITS                                               
+M5300     	DUCTWORK MATERIALS  	DUCTWORK MATERIALS (MECHANICAL)                             
+M5301     	GALVANISED DUCTWORK 	GALVANISED DUCTWORK (HVAC)                                  
+M5302     	BLACK STEEL DUCTWORK	BLACK STEEL DUCTWORK (HVAC)                                 
+M5302.1   	BLACK STEEL SHEET   	BLACK STEEL SHEET (HVAC)                                    
+M5303     	SS DUCTWORK         	STAINLESS STEEL DUCTWORK (MECHANICAL)                       
+M5304     	ALUM SHEET METAL    	ALUMINIUM SHEET METAL (MECHANICAL)                          
+M5305     	PVC SHEET           	PVC SHEET (MECHANICAL)                                      
+M5306     	COPPER/BRASS SHEET  	COPPER/BRASS SHEET (MECHANICAL)                             
+M5307     	PIR RIGID DUCT      	PRE-INSULATED RIGID DUCT (MECHANICAL)                       
+M5308     	GI DUCTWORK         	GI DUCTWORK (MECHANICAL)                                    
+M5309     	FABRIC DUCTWORK     	FABRIC DUCTWORK (MECHANICAL)                                
+M5310     	VCD ACCESS          	VOLUME CONTROL DAMPERS ACCESSORIES (HVAC)                   
+M5311     	ACCESS DOOR & ACCESS	ACCESS DOORS AND ACCESSORIES (HVAC)                         
+M5312     	TURN. VANES & ACCESS	TURNING VANES AND ACCESSORIES (MECHANICAL)                  
+M5313     	NON-RETURN DAMPERS  	NON-RETURN DAMPERS (MECHANICAL)                             
+M5314     	BAROMETRIC BDD      	BAROMETRIC BACK DRAFT DAMPER (MECHANICAL)                   
+M5315     	SMOKE & FIRE DAMPERS	SMOKE & FIRE DAMPERS (HVAC)                                 
+M5316     	MOTORISED DAMPERS   	MOTORISED DAMPERS (HVAC)                                    
+M5317     	MOTORISED FD        	MOTORISED FIRE DAMPERS (HVAC)                               
+M5318     	MOTORISED SD        	MOTORISED SMOKE DAMPERS (HVAC)                              
+M5319     	MOTORISED FSD       	MOTORISED FIRE & SMOKE DAMPERS (HVAC)                       
+M5320     	SOUND ATTENUATORS   	SOUND ATTENUATORS ACOUSTIC ENCLOSURES (HVAC)                
+M5321     	MODULATING DAMPERS  	MODULATING DAMPERS (HVAC)                                   
+M5330     	UNDERGRD. HVAC DUCT 	UNDERGROUND HVAC DUCT AND ACCESSORIES (MECHANICAL)          
+M5335     	FLEXIBLE DUCTS      	FLEXIBLE DUCTS (HVAC)                                       
+M5336     	PIR FLEXIBLE DUCTS  	PREINSULATED FLEXIBLE DUCTS (MECHANICAL)                    
+M5337     	SEMI RIGID ALUM DUCT	SEMI RIGID ALUMINIUM DUCTS (MECHANICAL)                     
+M5340     	SPIRAL DUCTS & FITT 	SPIRAL DUCTS AND FITTINGS (HVAC)                            
+M5341     	SS CIRCULAR DUCTS   	STAINLESS STEEL CIRCULAR DUCTS (HVAC)                       
+M5345     	FLEX DUCT CONNS     	FLEXIBLE DUCT CONNECTIONS (MECHANICAL)                      
+M5350     	TEST HOLE PLUGS     	TEST HOLE PLUGS (MECHANICAL)                                
+M5355     	DUCT SEALANT        	DUCT SEALANT (HVAC)                                         
+M5360     	HVAC SUNDRIES       	"HVAC SUNDRIES (BOLTS&NUTS, SCREWS, WIRE MESH,GASKET) (HVAC) "
+M5361     	POP RIVETS          	POP RIVETS (MECHANICAL)                                     
+M5362     	ANCHORS             	ANCHORS (MECHANICAL)                                        
+M5400     	AIR TERMINALS       	AIR TERMINALS (MECHANICAL)                                  
+M5401.1   	AIR OUTLETS         	"DIFFUSERS, REGISTERS, GRILLES, EXT.LOUVERS (HVAC)           "
+M5401.2   	SS AIR OUTLETS      	STAINLESS STEEL GRILLES & DIFFUSERS (HVAC)                  
+M5401.3   	GRILLE CW HEPA FILT.	GRILLES WITH HEPA FILTERS (HVAC)                            
+M5401.4   	ACOUSTIC LOUVERS    	ACOUSTIC LOUVERS (HVAC)                                     
+M5401.5   	SWIRL DIFFUSERS     	SWIRL DIFFUSERS (HVAC)                                      
+M5404     	SAND TRAP LOUVERS   	SAND TRAP LOUVERS (MECHANICAL)                              
+M5405     	DUST COLLECTORS     	DUST COLLECTORS (MECHANICAL)                                
+M5410     	VAV BOXES           	VARIABLE AIR VOLUME BOXES (HVAC)                            
+M5420     	HOODS               	HOODS (MECHANICAL)                                          
+M5425     	RELIEF/INTAKE VENT  	RELIEF/INTAKE VENTILATORS (MECHANICAL)                      
+M5426     	UC VENTILATION SYS  	ULTRA CLEAN VENTILATION SYSTEM (HVAC)                       
+M5500     	GAS SYS (NATURAL)   	GAS SYSTEM (NATURAL GAS) (MECHANICAL)                       
+M5600     	CO SYS              	CO SYSTEM (MECHANICAL)                                      
+M5800     	PUMPS               	PUMPS (MECHANICAL)                                          
+M5802     	PLUMBING WATER PUMPS	PLUMBING WATER PUMPS (PLUMBING)                             
+M5803     	BOOSTER PUMPS       	BOOSTER PUMPS (PLUMBING)                                    
+M5804     	TRANSFER PUMPS      	TRANSFER PUMPS (PLUMBING)                                   
+M5805     	CHILLED WATER PUMPS 	CHILLED WATER PUMPS (HVAC)                                  
+M5810     	FUEL TRANSFER PUMPS 	FUEL TRANSFER PUMPS (FUEL)                                  
+M5811     	WATER FUEL SEPARATOR	WATER FUEL SEPARATOR (MECHANICAL)                           
+M5815     	HOT WATER PUMPS     	HOT WATER PUMPS (MECHANICAL)                                
+M5816     	CIRCULATING PUMPS   	CIRCULATING PUMPS (MECHANICAL)                              
+M5820     	FIRE FIGHT. WTR PUMP	FIRE FIGHTING WATER PUMPS (MECHANICAL)                      
+M5821     	SUMP VALVES         	SUMP VALVES (MECHANICAL)                                    
+M5822     	PUMP DISCHARGE VALVE	PUMP DISCHARGE MULTIFUCTION VALVES (PLUMBING)               
+M5825     	CHEMICAL DOSING PUMP	CHEMICAL DOSING PUMPS (STEAM)                               
+M5826.1   	SUBMESIBLE PUMPS    	SUBMESIBLE PUMPS (DRAINAGE)                                 
+M5826.2   	PUMPING STATION     	SURFACE WATER PUMPING STATION (DRAINAGE)                    
+M5827     	IRIGATION PUMPS     	IRIGATION PUMPS (EXTERNAL)                                  
+M5830     	CONDENSATION PUMPS  	CONDENSATION PUMPS (HVAC)                                   
+M5831     	CONDEN. REC. EQUIP. 	CONDENSATION RECOVERY TANK & PUMPS (STEAM)                  
+M5832     	PUMP SUCTION DIFF.  	PUMP SUCTION DIFFUSER (PLUMBING)                            
+M5900     	MCH TOOLS EQUIP     	MECHANICAL TOOLS EQUIPMENT & INSTRUMENTS (MECHANICAL)       
+M5910     	AIR COMPRESSORS     	AIR COMPRESSORS (PLUMBING)                                  
+M5915     	MECH. INSTRUMENTS   	MECHANICAL INSTRUMENTS (FLUE GAS ANALYZER) (STEAM)          
+M5950     	COMPRESSED AIR SYS  	COMPRESSED AIR SYSTEM (MECHANICAL)                          
+M5951     	OXY ACCETELYNE SYS  	OXY ACCETELYNE SYSTEM (MECHANICAL)                          
+M5952     	FUELLING & SERVICING	FUELLING AND SERVICING SYSTEMS (MECHANICAL)                 
+M5955     	HYD. LIFTS & ELEV.  	HYDRAULIC LIFTS AND ELEVATORS (MECHANICAL)                  
+M5960     	CRANE               	CRANE (MECHANICAL)                                          
+P0000     	PLM MTR & EQUIP.    	PLUMBING MATERIALS AND EQUIPMENT (PLUMBING)                 
+P0010     	SUNDRIES PLUMBING   	SUNDRIES PLUMBING (PLUMBING)                                
+P0020     	SANITARY            	SANITARY FIXTURES AND FITTINGS (PLUMBING)                   
+P0021     	SANITARY CARRIERS   	SANITARY FIXTURES CARRIERS (PLUMBING)                       
+P0022     	SS KITCHEN SINK     	STAINLESS SINK KITCHEN SINK (PLUMBING)                      
+P0023     	PLUMBING TRIM FITT  	PLUMBING TRIM FITTINGS (DRAINAGE)                           
+P0030     	ACID NEUTR. BASINS  	ACID NEUTRALISING BASINS (PLUMBING)                         
+P0040     	ATM SILVER REC. UNIT	AUTOMATIC SILVER RECOVERY UNIT (DRAINAGE)                   
+P0050     	DRAINS              	DRAINS (PLUMBING)                                           
+P0051     	FD & CLEANOUTS      	FLOOR DRAINS & CLEANOUTS (DRAINAGE)                         
+P0052.1   	INTERCEPTORS        	"GREASE, OIL & SAND INTERCEPTORS (DRAINAGE)                  "
+P0052.2   	SENDIMENT INTERTRS. 	SENDIMENT INTERCEPTORS (DRAINAGE)                           
+P0053     	SUPPLY & DRAIN      	SUPPLY & DRAIN UNITS FOR WASHING MATERIALS (PLUMBING)       
+P0054     	TRAP PRIMERS        	TRAP PRIMERS                                                
+P0055     	WATER FILTERS       	WATER FILTERS (PLUMBING)                                    
+P0060     	POOL EQPT. & ACC'S  	SWIMMING POOL PLUMBING EQPT. & ACC'S (PLUMBING)             
+P0061     	POOL CHEMICAL SYS   	SWIMMING POOL CHEMICAL SYSTEM (PLUMBING)                    
+P1000     	FIRE FIGHTING       	FIRE FIGHTING SYSTEMS & ACCESSORIES (SUBCONTRACT)           
+P1001     	SPRINKLER           	SPRINKLER SYSTEMS AND ACCESSORIES (PLUMBING)                
+P1002     	FIRE STOPPING       	FIRE STOPPING (PLUMBING)                                    
+P1004     	FIRE BLANKET        	FIRE BLANKET (PLUMBING)                                     
+P1005     	HOSE REELS & CABINET	HOSE REELS AND CABINETS (EXTERNAL)                          
+P1010     	DRY RISER SYS       	DRY RISER SYSTEM (PLUMBING)                                 
+P1020     	FIRE HYDRANTS       	FIRE HYDRANTS (EXTERNAL)                                    
+P1030     	INERGEN SYS         	INERGEN SYSTEM (PLUMBING)                                   
+P1040     	DRY CHEMICAL SYS    	DRY CHEMICAL SYSTEM (PLUMBING)                              
+P1050     	HALON SYS           	HALON SYSTEM (PLUMBING)                                     
+P1060     	CO2 SYSS            	CO2 SYSTEMS (PLUMBING)                                      
+P1070     	FM200  SYS          	FM200 FIRE PROTECTION SYSTEM (PLUMBING)                     
+P1080     	FIRE EXTINGUISHERS  	PORTABLE FIRE EXTINGUISHERS (EXTERNAL)                      
+P2000     	WTR DISTRIB. MTR.   	WATER DISTRIBUTION MATERIALS (PLUMBING)                     
+P2001     	PEX PIPES & FITTINGS	PEX PIPES & FITTINGS (PLUMBING)                             
+P2002     	PPR PIPES & FITTINGS	PPR PIPES & FITTINGS (PLUMBING)                             
+P2003     	FG PIPES & FITT     	FIBREGLASS PIPES & FITTINGS (PLUMBING)                      
+P2004     	PE PIPE AND FITTING 	POLYETHYLENE PIPE AND FITTING (PLUMBING)                    
+P2005.1   	CPVC PIPES AND FITT 	CPVC PIPES AND FITTINGS (HVAC)                              
+P2005.2   	CPVC PIPES AND FITT 	CPVC PIPES AND FITTINGS (PLUMBING)                          
+P2006     	PPR PIPES & FITT    	POLYPROPYLENE PIPES & FITTINGS (DRAINAGE)                   
+P2006.1   	CHEM RES PIPE & FITT	CHEMICAL RESISTANT PIPES AND FITTINGS (DRAINAGE)            
+P2007     	HDPE PIPES & FITT   	LDPE/HDPE PIPES & FITTINGS (EXTERNAL)                       
+P2008     	PBU PIPES & FITT    	POLYBUTELENE PIPES & FITTINGS (DRAINAGE)                    
+P2009     	PVC PIPES & FITT    	SOIL & WASTE PIPES & FITTINGS (DRAINAGE)                    
+P2010.1   	UPVC PIPES AND FITT 	UPVC PIPES AND FITTINGS  (DRAINAGE)                         
+P2010.2   	UPVC PIPES AND FITT 	UPVC PIPES AND FITTINGS (EXTERNAL)                          
+P2011     	PLASTIC VALVES      	PLASTIC VALVES (PLUMBING)                                   
+P2012     	PERFORATED PVC PIPE 	PERFORATED PVC PIPE (PLUMBING)                              
+P2013     	GRP PIPES & FITTINGS	GRP PIPES & FITTINGS (PLUMBING)                             
+P2014     	GRE PIPES & FITT    	RTRP (GRE) PIPES & FITTINGS (HVAC)                          
+P2015     	MARKING/WARNING TAPE	MARKING/WARNING TAPE (MECHANICAL) (PLUMBING)                
+P2020.1   	CU PIPES AND FITT   	COPPER PIPES AND FITTINGS (PLUMBING)                        
+P2020.2   	CUPIPES AND FITT    	COPPER PIPES AND FITTINGS (EXTERNAL)                        
+P2021     	PCU PIPES AND FITT  	PREINSULATED COPPER PIPES AND FITTINGS (PLUMBING)           
+P2022     	REFG. PIPING & ACCSS	REFRIGARATION PIPING AND ACCESSORIES (HVAC)                 
+P2023     	BRASS FITT & ACCESS 	BRASS FITTINGS & ACCESSORIES (PLUMBING)                     
+P2025     	COMPRESSION FITTINGS	COMPRESSION FITTINGS (PLUMBING)                             
+P2030     	ASBESTOS PIPE & FITT	ASBESTOS PIPES AND FITTINGS (PLUMBING)                      
+P2031     	P.ASBESTOS PIPE & FT	PREINSULATED ASBESTOS PIPES AND FITTINGS (PLUMBING)         
+P2032     	PERF ASB PIPE & FITT	PERFORATED ASBESTOS PIPES AND FITTINGS (PLUMBING)           
+P2033     	CLAY PIPES AND FITT 	CLAY PIPES AND FITTINGS (DRAINAGE)                          
+P2034     	VENT TERMINALS      	VENT TERMINALS (PLUMBING)                                   
+P2035     	CI PIPES AND FITT   	CAST IRON PIPES AND FITTINGS (DRAINAGE)                     
+P2036     	GI PIPES & FITTINGS 	GI PIPES & FITTINGS (DRAINAGE)                              
+P2037.1   	DI PIPES & FITT     	DUCTILE IRON PIPES AND FITTINGS (PLUMBING)                  
+P2037.3   	DI PIPES & FITT EXT 	DUCTILE IRON PIPES AND FITTINGS (WN) (EXTERNAL)             
+P2037.4   	DI PIPES & FITT FF  	DUCTILE IRON PIPES AND FITTINGS (FF) (EXTERNAL)             
+P2037.5   	DI PIPES & FITT IS  	DUCTILE IRON PIPES AND FITTINGS (IS) (EXTERNAL)             
+P2037.6   	DI PIPES & FTT SWD  	DUCTILE IRON PIPES AND FITTINGS (SWD) (EXTERNAL)            
+P2037.7   	DI PIPES & FITT FDS 	DUCTILE IRON PIPES AND FITTINGS (FDS) (EXTERNAL)            
+P2040.1   	STEEL PIPES & FITT  	STEEL PIPES AND FITTINGS (HVAC)                             
+P2040.2   	STEEL PIPES & FITT  	STEEL PIPES AND FITTINGS (FF)                               
+P2040.3   	STEEL PIPES & FITT  	STEEL PIPES AND FITTINGS  (STEAM)                           
+P2040.4   	STEEL PIPES & FITT  	STEEL PIPES AND FITTINGS (FUEL)                             
+P2040.5   	STEEL PIPE & FITT CW	STEEL PIPES AND FITTINGS (CW) (EXTERNAL)                    
+P2040.6   	STEEL PIPE & FITT ST	STEEL PIPES AND FITTINGS  (ST) (EXTERNAL)                   
+P2041     	P. STEEL PIPE & FITT	PREINSULATED STEEL PIPES AND FITTINGS (HVAC)                
+P2045     	FLASHING FOR PIPES  	FLASHING FOR PIPES (PLUMBING)                               
+P2046     	STEAM TRAP          	STEAM TRAP (STEAM)                                          
+P2047     	DEAERATOR           	DEAERATOR (STEAM)                                           
+P2048     	FLASH STEAM SEPAR.  	FLASH STEAM SEPARATOR & BLOW DOWN VESSEL (STEAM)            
+P2049     	VALVE BOX           	VALVE BOX (PLUMBING)                                        
+P2049.1   	VALVE BOX (IS)      	VALVE BOX (IS) (EXTERNAL)                                   
+P2050.1   	VALVES (GENERAL)    	VALVES (GENERAL) (HVAC)                                     
+P2050.10  	VALVE (GENERAL) SCS 	VALVES (GENERAL) (SCS) (EXTERNAL)                           
+P2050.2   	VALVES (GENERAL)    	VALVES (GENERAL) (PLUMBING)                                 
+P2050.3   	VALVES (GENERAL)    	VALVES (GENERAL) (DRAINAGE)                                 
+P2050.4   	VALVES (GENERAL)    	VALVES (GENERAL) (STEAM)                                    
+P2050.5   	VALVE (GENERAL) FF  	VALVES (GENERAL) (FF) (FF)                                  
+P2050.6   	VALVES (GENERAL)    	VALVES (GENERAL)  (FUEL)                                    
+P2050.7   	VALVE (GENERAL) WN  	VALVES (GENERAL) (WN) (FF)                                  
+P2050.8   	VALVES GENERAL) IS  	VALVES GENERAL) (IS) (EXTERNAL)                             
+P2050.9   	VALVE (GENERAL) CCS 	VALVES (GENERAL) (CCS) (EXTERNAL)                           
+P2051     	BALANCING VALVES    	BALANCING VALVES (PLUMBING)                                 
+P2052     	AIR VENTS           	AIR VENTS (MANUAL OR AUTOMATIC) (PLUMBING)                  
+P2053     	WATER METERS        	WATER METERS (PLUMBING)                                     
+P2054.1   	PRS VALVE/STAT HVAC 	PRESSURE REDUCING VALVES/STATION (HVAC)                     
+P2054.2   	PRS VALVE/STAT PLM  	PRESSURE REDUCING VALVES/STATION (PLUMBING)                 
+P2055.1   	STRAINERS           	STRAINERS (HVAC)                                            
+P2055.2   	STRAINERS           	STRAINERS (PLUMBING)                                        
+P2056     	BACKFLOW BREVENTORS 	BACKFLOW BREVENTORS (PLUMBING)                              
+P2057     	WTR HAMMER ARRESTORS	WATER HAMMER ARRESTORS (PLUMBING)                           
+P2058.1   	FPC & EXP JNT HVAC  	FLEXIBLE PIPE CONNECTIONS & EXPANSION JOINTS (HVAC)         
+P2058.2   	FPC & EXP JNT PLM   	FLEXIBLE PIPE CONNECTIONS & EXPANSION JOINTS (PLUMBING)     
+P2059     	HOSE BIBS           	HOSE BIBS (PLUMBING)                                        
+P2060     	COLD WTR TANKS      	COLD WATER STORAGE TANKS (PLUMBING)                         
+P2061     	CONCRETE WTR TANKS  	CONCRETE WATER RESERVOIR ACCESSORIES (PLUMBING)             
+P2062     	WTR LEVEL CTRL.     	WATER LEVEL MECHANICAL CONTROLLERS (PLUMBING)               
+P2063     	FEED WATER TANKS    	FEED WATER TANKS (STEAM)                                    
+P2064     	DRINKING FOUNTAINS  	DRINKING FOUNTAINS (PLUMBING)                               
+P2070     	SPRINKLER WTR TANKS 	SPRINKLER WATER TANKS (PLUMBING)                            
+P2071     	SPECIAL TANKS       	SPECIAL TANKS (PLUMBING)                                    
+P2072     	L.P. GAS TANK       	L.P. GAS TANK (PLUMBING)                                    
+P2075     	FUEL TANKS          	FUEL TANKS (FUEL)                                           
+P2076     	FUEL TANK ACCESS.   	FUEL TANK ACCESSORIES (FUEL)                                
+P2077     	FUEL TANK SUPPORT   	FUEL TANK SUPPORT (FUEL)                                    
+P2078     	SEWAGE TREAT PLANT  	SEWAGE TREATMENT PLANT (PLUMBING)                           
+P2079     	FUEL FILLING CABINET	FUEL FILLING CABINETS (FUEL)                                
+P2080     	CHW TREAT SYSS      	CHILLED WATER TREATMENT SYSTEMS (HVAC)                      
+P2081     	CHW TREAT CHEMICALS 	CHILLED WATER TREATMENT CHEMICALS (HVAC)                    
+P2082     	DISINFEN. & FLASHING	"DISINFENCTION, FLASHING & WATER TREATMENT (PLUMBING)        "
+P2083     	WATER SOFTENER      	WATER SOFTENER (PLUMBING)                                   
+P2084     	CHILLED WTR VESSELS 	CHILLED WATER VESSELS (PLUMBING)                            
+P2085     	PRES. & EXP. VESSEL 	PRESURISATION UNIT / EXPANSION VESSEL (HVAC)                
+P2086     	AIR SEPARATOR       	AIR SEPARATOR TANK FOR CHILLED WATER (HVAC)                 
+P2087     	CHW LEAK DETECTION  	CHILLED WATER LEAK DETECTION SYSTEM (HVAC)                  
+P2088     	CHEMICAL DOSING POT 	CHEMICAL DOSING POT (HVAC)                                  
+P2089     	AIRCRAFT WASH SYSTEM	AIRCRAFT WASH SYSTEM                                        
+P2090     	COOLING TOWERS      	COOLING TOWERS (HVAC)                                       
+P2090.1   	COOL. TWR CLEAN. SYS	COOLING TOWER CLEANING SYSTEM (HVAC)                        
+P2093.1   	PRS/TEMP GAUGES HVAC	PRESSURE GAUGES / MANOMETERS (HVAC)                         
+P2093.2   	PRS/TEMP GAUGES PLM 	PRESSURE GAUGES / MANOMETERS (PLUMBING)                     
+P2094     	THERMOMETERS        	THERMOMETERS (PLUMBING)                                     
+P2095     	FLOW METERS         	FLOW METERS (PLUMBING)                                      
+P2096     	PRS & TEMP. POINTS  	PRESSURE & TEMPERATURE POINTS (PLUMBING)                    
+P2097     	FLOW & PRS SWITCH   	"FLOW, TAMPER & PRESSURE SWITCHES (FF)                       "
+P2098.1   	SUPPORTS HVAC       	PIPE HANGERS / GUIDES / SUPPORTS (HVAC)                     
+P2098.2   	SUPPORTS PLM        	PIPE HANGERS / GUIDES / SUPPORTS (PLUMBING)                 
+P2098.3   	SUPPORTS DRN        	PIPE HANGERS / GUIDES / SUPPORTS (DRAINAGE)                 
+P2098.4   	SUPPORTS STREAM     	PIPE HANGERS / GUIDES / SUPPORTS (STEAM)                    
+P2098.5   	SUPPORTS FF         	PIPE HANGERS / GUIDES / SUPPORTS (FF)                       
+P2099     	MEP SUPPORTS        	MEP SUPPORTS                                                
+P3000     	BOILERS             	BOILERS (STEAM)                                             
+P3001     	STEAM HEADER        	STEAM HEADER (PLUMBING)                                     
+P3003     	HEATING ELEMENT     	HEATING ELEMENT (PLUMBING)                                  
+P3005     	TANK HEADER         	TANK HEADER (PLUMBING)                                      
+P3008     	BOILER FEED UNIT    	BOILER FEED UNIT (PLUMBING)                                 
+P3009     	BOILER FLUE SYS     	BOILER FLUE SYSTEM (STEAM)                                  
+P3010     	ELECTRIC WTR HEATERS	ELECTRIC WATER HEATERS (PLUMBING)                           
+P3020     	HEAT EXCHANGER (HEX)	HEAT EXCHANGER (HEX) (HVAC)                                 
+P3021     	HEAT EXCHANGER      	HEAT EXCHANGER (STEAM)                                      
+P3030     	STORAGE CALORIFIERS 	STORAGE CALORIFIERS (PLUMBING)                              
+P3040     	SOLAR WATER HEATERS 	SOLAR WATER HEATERS                                         
+P3050     	STEAM SYS           	STEAM SYSTEM (SUBCONTRACT)                                  
+P4030     	WTR TREAT DIALYSIS  	WATER TREATMENT DIALYSIS (SUBCONTRACT)                      
+P4040     	HYDROTHERAPY POOL   	HYDROTHERAPY POOL (SUBCONTRACT)                             
+P4050     	LPG GAS SYS         	LIQUIDE PROPANE GAS SYSTEM (SUBCONTRACT)                    
+P4060     	FUEL SYS            	FUEL SYSTEM (SUBCONTRACT)                                   
+P4100.1   	PIPE INSU (HVAC)    	PIPE INSULATION (HVAC)                                      
+P4100.10  	PIPE INSU (SCS)     	PIPE INSULATION (SCS) (EXTERNAL)                            
+P4100.2   	PIPE INSULATION (PL)	PIPE INSULATION (PLUMBING)                                  
+P4100.3   	PIPE INSULATION (DR)	PIPE INSULATION (DRAINAGE)                                  
+P4100.4   	PIPE INSULATION (ST)	PIPE INSULATION (STEAM)                                     
+P4100.5   	PIPE INSULATION (FF)	PIPE INSULATION (FF) (FF)                                   
+P4100.6   	PIPE INSULATION (FL)	PIPE INSULATION (FUEL)                                      
+P4100.7   	PIPE INSULATION (WN)	PIPE INSULATION (WN) (EXTERNAL)                             
+P4100.8   	PIPE INSULATION (IS)	PIPE INSULATION (IS) (EXTERNAL)                             
+P4100.9   	PIPE INSU (CCS)     	PIPE INSULATION (CCS) (EXTERNAL)                            
+P4101     	ELAS.THERMAL INSU   	ELASTOMERIC THERMAL INSULATION (PLUMBING)                   
+P4102     	CLAD FOR PIPE INSU  	CLADDING FOR PIPE INSULATION (PLUMBING)                     
+P4102.1   	ALUM SHEET CLAD     	ALUMINIUM SHEET CLADDING (HVAC)                             
+P4102.10  	ALUM SHEET CLAD (ST)	ALUMINIUM SHEET CLADDING (ST) (EXTERNAL)                    
+P4102.7   	ALUM SHEET CLAD (WN)	ALUMINIUM SHEET CLADDING (WN) (EXTERNAL)                    
+P4102.9   	ALUM SHEET CLAD (CW)	ALUMINIUM SHEET CLADDING (CW) (EXTERNAL)                    
+P4103     	UNICELL. PIPE INSU  	UNICELLULAR PLASTIC PIPE INSULATION (PLUMBING)              
+P4160     	STEAM SUB PACKAGE   	STEAM SUB-CONTRACT PACKAGE (SUBCONTRACT)                    
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
