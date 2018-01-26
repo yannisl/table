@@ -109,6 +109,15 @@ LaTeX tabular require that we provide a specifier.
 
 In Go this is provided as part of the property map. Future versions of this package and one basic reason for its development is to avoid the user to have to type the tabular specifier. If an algorithm can be devised for the Go routines to guess a best looks strategy, then one can go back to processing the tabulars with the TeX primitive `\halign`. This in my estimation can speed up compilation by at least two orders of magnitude.
 
+My current thoughts as to the algorithm is as follows:
+
+1.0  Iterate through all the columns, determining the dominating type. 
+2.0  If a column is a field with decimal numbers. We have two choices, one is to use an S or D field from the `siunitx` package or the `ddcolumn` or we can use Go and fmt.Sprintf to print the number. In this case for most applications a right justified field is preferable.
+3.0  Cases where we have long alphanumeric strings, will probably need wrapping. In this case we can use a `p{}` or `X` to typeset the cell. 
+4.0  All others center.
+
+
+
 
 
 
