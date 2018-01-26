@@ -1,3 +1,5 @@
+[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/emersion/stability-badges#experimental)
+
 # Table
 
 Table is a Go package that translates .csv files to nice LaTeX2e tables. Currently it is
