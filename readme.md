@@ -28,7 +28,7 @@ the example files.
 A new table is created by:
 
 ```[Go]
-	r := table.New()
+  r := table.New()
 ```
 
 This will initialize a set of default properties for the processor.
@@ -39,7 +39,7 @@ Files exported to .csv, especially from excel might need a preprocessing stage, 
 and escaped. This can be done in a singlr operation using:
 
 ```[Go]
-	r.Clean("<filepath>")
+  r.Clean("<filepath>")
 ```
 
 
