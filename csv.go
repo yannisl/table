@@ -140,7 +140,7 @@ func main() {
 
 	//
 	r := table.New()
-	r.Clean("j56.csv") //"j56.csv") //"j56.csv")"sub.csv"
+	r.Clean("j56.csv") 
 	r.Caption("Material Costs")
 	// do load
 	r.SkipN = 4
@@ -187,12 +187,7 @@ func main() {
 		0: {"CONTAINS", "GEN", "GENERAL"},
 	}
 
-	// new table inherits old
-	// 0 = serial
-	// 1 = code
-	// 9 = description
-	// 10 =  budget
-	// 11 = budget adjustment
+
 	r.Columns([]int{0, 1, 9, 8, 11, 12, 13, 14, 15})
 	r.SectionCSV("materials.tex", true, prop)
 

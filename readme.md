@@ -117,6 +117,7 @@ LaTeX tabular require that we provide a specifier.
 
 ```latex
   \begin{longtable}{l l l l l}
+    1 & 2 & 3 & 4 & 5\\
   \end{longtable}
 ```
 
@@ -131,10 +132,26 @@ My current thoughts as to the algorithm is as follows:
 
 Although one can provide a map of properties I do not favour this approach, as it can get extremely verbose. It is fine if you generating your tables programmatically, as it will be one-off, but I still think it is better to spend some more time on the interface.
 
+## Floating Tables
 
+If the tabular is to be allowed to float it needs to be wrapped in `begin{table}[htbp]...\end{table}` environment. The equivalent Go code is:
 
+```go
+  r.FloatStart = "table"
+  r.FloatSpecifier = "htbp"
+```
 
+## Captions
 
+Captions have both an option style as well as a command to set them. It is provided as a separate package, so you need to import the package before it can be used.
+
+```go
+  r.Caption("description for contents", "description for caption")
+  r.CaptionStar("a caption that never goes to the contents")
+```  
+
+The `r.Caption` takes a variable number of arguments, similarly to LaTeX2e. If you only provide one argument then the package will issue a `\caption{<description>}`. If you use two arguments it will be rendered as `\caption[short]{long description},`  so as to provide the same flexibility as a LaTeX2e
+command.	
 
 
 
