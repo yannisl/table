@@ -38,14 +38,23 @@ This will initialize a set of default properties for the processor.
 Files exported to .csv, especially from excel might need a preprocessing stage, where the data is cleaned
 and escaped. This can be done in a singlr operation using:
 
-```[Go]
+```go
   r.Clean("<filepath>")
+```
+
+
+### Selecting Columns
+
+Selecting the columns to be rendered can be done in a couple of ways. The easiest is to use 
+
+```go
+r.ColumnsByName("5-6", "code", "22-25", "short_description", "long_description", 1)
 ```
 
 
 
 
-```[Go]
+```go
 func ExampleSmart() {
 	r := table.New()
 
@@ -102,7 +111,7 @@ func ExampleSmart() {
 
 LaTeX tabular require that we provide a specifier.
 
-```
+```latex
   \begin{longtable}{l l l l l}
   \end{longtable}
 ```
@@ -115,6 +124,10 @@ My current thoughts as to the algorithm is as follows:
 2. If a column is a field with decimal numbers. We have two choices, one is to use an S or D field from the `siunitx` package or the `ddcolumn` or we can use Go and fmt.Sprintf to print the number. In this case for most applications a right justified field is preferable.
 3. Cases where we have long alphanumeric strings, will probably need wrapping. In this case we can use a `p{}` or `X` to typeset the cell. 
 4. All others center.
+
+Although one can provide a map of properties I do not favour this approach, as it can get extremely verbose. It is fine if you generating your tables programmatically, as it will be one-off, but I still think it is better to spend some more time on the interface.
+
+
 
 
 
