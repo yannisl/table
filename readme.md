@@ -111,10 +111,10 @@ In Go this is provided as part of the property map. Future versions of this pack
 
 My current thoughts as to the algorithm is as follows:
 
---1.0  Iterate through all the columns, determining the dominating type. 
---2.0  If a column is a field with decimal numbers. We have two choices, one is to use an S or D field from the `siunitx` package or the `ddcolumn` or we can use Go and fmt.Sprintf to print the number. In this case for most applications a right justified field is preferable.
---3.0  Cases where we have long alphanumeric strings, will probably need wrapping. In this case we can use a `p{}` or `X` to typeset the cell. 
---4.0  All others center.
+1.  Iterate through all the columns, determining the dominating type. 
+2. If a column is a field with decimal numbers. We have two choices, one is to use an S or D field from the `siunitx` package or the `ddcolumn` or we can use Go and fmt.Sprintf to print the number. In this case for most applications a right justified field is preferable.
+3. Cases where we have long alphanumeric strings, will probably need wrapping. In this case we can use a `p{}` or `X` to typeset the cell. 
+4. All others center.
 
 
 
