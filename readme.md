@@ -96,3 +96,21 @@ func ExampleSmart() {
 
 }
 ```
+
+
+### The Tabular Specifier
+
+LaTeX tabular require that we provide a specifier.
+
+```
+  \begin{longtable}{l l l l l}
+  \end{longtable}
+```
+
+In Go this is provided as part of the property map. Future versions of this package and one basic reason for its development is to avoid the user to have to type the tabular specifier. If an algorithm can be devised for the Go routines to guess a best looks strategy, then one can go back to processing the tabulars with the TeX primitive `\halign`. This in my estimation can speed up compilation by at least two orders of magnitude.
+
+
+
+
+
+
