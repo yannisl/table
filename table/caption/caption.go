@@ -3,6 +3,18 @@
 // "caption" LaTeXe package. The package also maps
 // keys to the phd package interface which uses a declarative
 // approach for styling documents.
+//
+// A caption can be rendered in many different ways.
+//
+//     Table 1.1 This is a caption
+//     figure 2:  This is a caption for
+//        my scientific figure.
+//
+// The long term intention of the package is to provide
+// renderers for html, tex, pdf as well as create a 
+// component for React or Vue javascript renderers.
+//
+//   
 package caption
 
 import (
@@ -11,15 +23,54 @@ import (
 	//"bufio"
 )
 
+const (
+	NONE = "none"
+	COLON = "colon"
+)
+
 var (
-	labelsep   = []string{"none", "colon", "period", "space", "quad", "newline", "endash"}
+	labelsep   = []string{NONE, COLON, "period", "space", "quad", "newline", "endash"}
 	textformat = []string{"empty", "simple", "period"}
 )
 
-type Captioner interface {
+// Renderer provides the interace for all captioning rendering. I will extend it
+// to a full interface for the document at a later stage.
+type Renderer interface {
+	// adds the setup to the preamble or relevant css strings
+	AddToPreamble(out *bytes.Buffer, options map[string]string)
+	SetStyle()
+	SetCommand()
 }
 
 
+
+func  TeXAddToPreamble(out *bytes.Buffer, options map[string]string) Renderer {
+	return &CaptionStyle{}
+}
+
+// AddToPreamble implements the Renderer interface. It adds the package to the
+// LaTeX preamble. The bytes.Buffer refers to region 2 of the preamble template.
+func (c *CaptionStyle) AddToPreamble(out *bytes.Buffer, options map[string]string){
+	out.WriteString("\\usepackage{caption}\n")
+	out.WriteString("\\CaptionSetUp{}\n")
+}
+
+func (c *CaptionStyle) SetStyle(){
+
+}
+
+func (c *CaptionStyle) SetCommand(){
+
+}
+
+// Captioner is an interface to produce captions in
+// various flavours, such as TeX/LaTeX2e, pdf, html etc
+type Captioner interface {
+	SetStyler(s string)
+}
+
+// Margin is a struct representing the margins of the
+// container.
 type Margin struct {
 	Left string
 	Right string
@@ -31,9 +82,14 @@ type Margin struct {
 
 // Setting sets the property value, as well
 // as append it to the buffer
-func (m *Margin) SetMargin(s string) {
-	m.Left = s
-	m.buf.WriteString("margin="+s)
+// TODO
+func (m *Margin) SetMargin(s ...string) string {
+	if len(s)<1 {
+		return ""
+	}
+	m.Left = s[0]
+	m.buf.WriteString("margin="+s[0])
+	return m.buf.String()
 }
 
 
@@ -119,16 +175,10 @@ func (c *CaptionStyle) RefLabelCmd() string {
 	return ""
 }
 
+// DeclareCaptionStyle creates a new named caption style. Think of it as
+// a class in css.
 func DeclareCaptionStyle() {
 
-}
-
-// Implement the string interface
-func (c *CaptionStyle) String() string {
-	// Initialize all Styles by setting them to base
-	c.buf.WriteString("\\CaptionStyle{")
-	c.buf.WriteString("format=base")
-	c.buf.WriteString("}%%\n")
 }
 
 
