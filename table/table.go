@@ -31,7 +31,7 @@ const (
 // Errors returned by Table
 var (
 	errInvalidFieldNames = errors.New("That was a fatal error my friend")
-	errInvalidRange      = errors.New("The provided range in SelectColumns() is invalid, my friend") 
+	errInvalidRange      = errors.New("The provided range in SelectColumns() is invalid, my friend")
 )
 
 // Field represent a cell of a table.
@@ -60,19 +60,17 @@ func (a *Stripe) Activate() {
 // Head is a structure holding strings that describe the head
 // of a table.
 type Head struct {
-  M	[][]string
-}	
-
+	M [][]string
+}
 
 // AddHeader adds a slice to the Header. This is a user function.
 // to simplify the user interface we allow either a slice
 // to be entered or a series of strings. The latter is
 // assumed to be easier for TeX users that might need be familiar
-// with go. 
-func (h *Head) AddHeader (s ...string) {
+// with go.
+func (h *Head) AddHeader(s ...string) {
 	h.M = append(h.M, s)
 }
-
 
 // Table is a datastructure for tabular data.
 // Data: A Table holds
@@ -105,18 +103,18 @@ type Table struct {
 	property string
 	// rendering properties
 	prop map[string]string
-	
+
 	// slice with selected cells
 	selector []int
 
-	// 
+	//
 	selectedColumns []interface{}
-	
+
 	// number of first lines to skip
 	SkipN int
 	// Tables can have section names, these are being picked up
 	// and used as subtitles. Defaults to false.
-	Header Head //[][]string
+	Header          Head //[][]string
 	HasHeader       bool
 	HasManualHeader bool
 	HeaderLines     int
@@ -235,7 +233,7 @@ func (t *Table) validateSelectedColumns(s ...interface{}) error {
 			if ok {
 				intRange = append(intRange, iRange...)
 				fmt.Println(intRange, iRange)
-			}	else {
+			} else {
 				strRange = append(strRange, str)
 			}
 
@@ -262,35 +260,33 @@ func (t *Table) ColumnsByName(s ...interface{}) {
 	if len(s) < 1 {
 		panic("Error you need to select at least 1 column")
 	}
-	
+
 	// We have input from the user save it n struct.
 	// We will validate later, when we start reading the csv
 	// file and we know the number of cells.
 	t.selectedColumns = append(t.selectedColumns, s...)
-	
-	
+
 }
 
 // GetColumns gets the Columns selected by the user, validates the input
 // and returns a slice of column indices.
-// todo. 
+// todo.
 func (t *Table) GetColumns() {
 	err := t.validateSelectedColumns(t.selectedColumns)
 	if err != nil {
 		fmt.Println(err)
 		fmt.Println("Ask Donald Knuth")
-		
+
 	}
 }
 
-
-// Vector maps the selected columns. 
+// Vector maps the selected columns.
 func (t *Table) Vector(record []string) []string {
-	
+
 	// Check if we have selected user columns by name
-	if len(t.selector)==0 {
+	if len(t.selector) == 0 {
 		t.GetColumns()
-	}	
+	}
 
 	vector := make([]string, len(t.selector))
 
@@ -299,8 +295,6 @@ func (t *Table) Vector(record []string) []string {
 	}
 	return vector
 }
-
-
 
 // SkipFirstN skips the first n lines from the table.
 // The index starts at zero.
@@ -342,7 +336,7 @@ func NewColumnType(cs ColumnSpecifier) string {
 type RowSpecifier struct {
 }
 
-// TableHeader adds the header. 
+// TableHeader adds the header.
 func (t *Table) TableHeader(labels []string) string {
 	var buf bytes.Buffer
 	color, ok := t.prop["thetableheadbgcolor"]
@@ -354,9 +348,8 @@ func (t *Table) TableHeader(labels []string) string {
 		buf.WriteString(v)
 	}
 
-	
 	return buf.String()
-	
+
 }
 
 // AddVertSpace adds vertical spacing in a longtable
@@ -386,7 +379,7 @@ func (t *Table) End(w io.Writer) {
 	if t.FloatStart != "" {
 		out("\\end{" + t.FloatStart + "}\n")
 	}
-	
+
 	if t.Landscape {
 		out("\\end{" + t.Type + "}%\n")
 		out("\\egroup\n")
@@ -443,7 +436,7 @@ func (t *Table) Property(prop map[string]string) string {
 // Begin sets the table strings based on the specified properties
 func (t *Table) Begin(w io.Writer, prop map[string]string) string {
 	var buf bytes.Buffer
-	out:= buf.WriteString
+	out := buf.WriteString
 	floatStart := t.FloatStart
 	if floatStart != "" {
 		out("\\begin{" + floatStart + "}[" + t.FloatSpecifier + "]\n")
@@ -490,7 +483,7 @@ func (t *Table) ColorAllRows() string {
 	return "\\rowcolor{thetableheadbgcolor!0.25!white}"
 }
 
-// GetEveryRow  gets the contents of the everyRow 
+// GetEveryRow  gets the contents of the everyRow
 // buffer and returns the contents as a string.
 func (t *Table) GetEveryRow() string {
 	ev := t.everyRow.String()
@@ -743,8 +736,6 @@ func (t *Table) longTableContinuation(hlines []string) string {
 	return buf.String()
 }
 
-
-
 // SectionCSV converts a csv file into a tex file
 // It handles longtbales with sections (they look more like documents).
 func (t *Table) SectionCSV(fname string, summation bool, prop map[string]string) {
@@ -769,7 +760,6 @@ func (t *Table) SectionCSV(fname string, summation bool, prop map[string]string)
 	t.currentline = 0
 	var inHead = false
 
-
 	for {
 
 		t.currentline++
@@ -777,7 +767,7 @@ func (t *Table) SectionCSV(fname string, summation bool, prop map[string]string)
 
 		// save the number of cells we will need it later
 		t.ncols = len(record)
-		
+
 		// skip empty lines
 		if len(strings.Join(record, "")) == 0 {
 			log.Println("EMPTY RECORD DETECTION")
@@ -792,8 +782,6 @@ func (t *Table) SectionCSV(fname string, summation bool, prop map[string]string)
 		} else if err != nil {
 			fmt.Println("Error:", err)
 		}
-
-
 
 		vector := t.Vector(record)
 		// needs fixing

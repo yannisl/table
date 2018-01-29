@@ -46,7 +46,7 @@ func openBrowser(url string) bool {
 // Groups
 func Example() {
 	r := table.New()
-	r.Clean("groups.csv")                //"j56.csv") //"j56.csv")"sub.csv"
+	r.Clean("groups.csv") //"j56.csv") //"j56.csv")"sub.csv"
 	// Work on settings
 	//r.SkipFirstN(1)
 	r.SkipN = 1
@@ -83,8 +83,7 @@ func Example() {
                   l|% 
                   l|}%`
 
-
-    // We start procesing here
+	// We start procesing here
 	r.ReadCSV("groups.tex", true, prop)
 
 }
@@ -140,7 +139,7 @@ func main() {
 
 	//
 	r := table.New()
-	r.Clean("j56.csv") 
+	r.Clean("j56.csv")
 	r.Caption("Material Costs")
 	// do load
 	r.SkipN = 4
@@ -186,7 +185,6 @@ func main() {
 		1: {"PREFIX", "GEN", "GENERAL"},
 		0: {"CONTAINS", "GEN", "GENERAL"},
 	}
-
 
 	r.Columns([]int{0, 1, 9, 8, 11, 12, 13, 14, 15})
 	r.SectionCSV("materials.tex", true, prop)
@@ -247,8 +245,8 @@ func main() {
 	r.Stripe.Activate()
 	r.ReadCSV("test.tex", true, prop)
 
-//"--interaction=nonstopmode",
-	cmd := exec.Command("lualatex", "mat.tex",  "&& start chrome.exe", "mat.pdf")
+	//"--interaction=nonstopmode",
+	cmd := exec.Command("lualatex", "mat.tex", "&& start chrome.exe", "mat.pdf")
 	printCommand(cmd)
 	printCommand(cmd)
 

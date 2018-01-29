@@ -11,22 +11,58 @@
 //        my scientific figure.
 //
 // The long term intention of the package is to provide
-// renderers for html, tex, pdf as well as create a 
+// renderers for html, tex, pdf, docx as well as create a
 // component for React or Vue javascript renderers.
-//
-//   
+// document independent 
 package caption
 
 import (
-	"fmt"
 	"bytes"
+	"fmt"
 	//"bufio"
+	//"github.com/golang/net/html/atom"
 )
 
 const (
-	NONE = "none"
+	NONE  = "none"
 	COLON = "colon"
 )
+
+// A TokenType is the type of a Token.
+type TokenType uint32
+
+const (
+	// ErrorToken means that an error occurred during tokenization.
+	ErrorToken TokenType = iota
+	// TextToken means a text node.
+	TextToken
+	// A StartTagToken looks like <a>. \bgroup
+	StartTagToken
+	// An EndTagToken looks like </a>. \egroup
+	EndTagToken
+	// A SelfClosingTagToken tag looks like <br/>. \section[]{}...{} 
+	SelfClosingTagToken
+	// A CommentToken looks like <!--x-->. in HTML or % for TeX
+	CommentToken
+	// A DoctypeToken looks like <!DOCTYPE x> this is class in LaTeX not used for TeX
+	DoctypeToken
+)
+
+// A Token consists of a TokenType and some Data (tag name for start and end
+// tags, content for text, comments and doctypes). A tag Token may also contain
+// a slice of Attributes. Data is unescaped for all Tokens (it looks like "a<b"
+// rather than "a&lt;b"). For tag Tokens, DataAtom is the atom for Data, or
+// zero if Data is not a known tag name.
+type Token struct {
+	Type     TokenType
+	//DataAtom atom.Atom
+	Data     string
+	Attr     []Attribute
+}
+
+type Element struct {
+	toks []Token
+}
 
 var (
 	labelsep   = []string{NONE, COLON, "period", "space", "quad", "newline", "endash"}
@@ -35,95 +71,154 @@ var (
 
 // Renderer provides the interace for all captioning rendering. I will extend it
 // to a full interface for the document at a later stage.
+//
+//
 type Renderer interface {
 	// adds the setup to the preamble or relevant css strings
 	AddToPreamble(out *bytes.Buffer, options map[string]string)
-	SetStyle()
+	Style()
 	SetCommand()
 }
 
+// html renderers
+type html struct {
+	// inherit all methods. We will override later.
+	Renderer
+}
 
+func HtmlRenderer(out *bytes.Buffer, options map[string]string) Renderer {
+	return &html{}
+}
 
-func  TeXAddToPreamble(out *bytes.Buffer, options map[string]string) Renderer {
-	return &CaptionStyle{}
+func TeXRenderer(out *bytes.Buffer, options map[string]string) Renderer {
+	cs := New()
+	return cs
 }
 
 // AddToPreamble implements the Renderer interface. It adds the package to the
 // LaTeX preamble. The bytes.Buffer refers to region 2 of the preamble template.
-func (c *CaptionStyle) AddToPreamble(out *bytes.Buffer, options map[string]string){
+func (c *CaptionStyle) AddToPreamble(out *bytes.Buffer, options map[string]string) {
 	out.WriteString("\\usepackage{caption}\n")
 	out.WriteString("\\CaptionSetUp{}\n")
 }
 
-func (c *CaptionStyle) SetStyle(){
+func (c *CaptionStyle) Style() {
 
 }
 
-func (c *CaptionStyle) SetCommand(){
+func (c *CaptionStyle) SetCommand() {
 
-}
-
-// Captioner is an interface to produce captions in
-// various flavours, such as TeX/LaTeX2e, pdf, html etc
-type Captioner interface {
-	SetStyler(s string)
 }
 
 // Margin is a struct representing the margins of the
 // container.
 type Margin struct {
-	Left string
-	Right string
+	Left              string
+	Right             string
 	oneside, twosside string
 	// The top and bottom are actually skips
 	Top, Bottom string
-	buf bytes.Buffer
+	buf         bytes.Buffer
 }
 
 // Setting sets the property value, as well
 // as append it to the buffer
 // TODO
 func (m *Margin) SetMargin(s ...string) string {
-	if len(s)<1 {
+	if len(s) < 1 {
 		return ""
 	}
 	m.Left = s[0]
-	m.buf.WriteString("margin="+s[0])
+	m.buf.WriteString("margin=" + s[0])
 	return m.buf.String()
 }
 
+// An Attribute is an attribute namespace-key-value triple. Namespace is
+// non-empty for foreign attributes like xlink, Key is alphabetic (and hence
+// does not contain escapable characters like '&', '<' or '>'), and Val is
+// unescaped (it looks like "a<b" rather than "a&lt;b").
+//
+// Namespace is only used by the parser, not the tokenizer.
+// Not used for all elements or I can use for the element
+type Attribute struct {
+	Namespace, Key, Val string
+}
+
+
+// Not used at the moment
+type Font struct {
+	Name        string
+	Series      string
+	Shape       string
+	FontFace    string
+	FontFamily  string
+	FontWeight  string
+	FontVariant string
+	FontSize    string
+	Typ         string
+}
+
+// use atoms to refer to attributes
+var dict = map[string]string{"font-size": "10pt",
+							 "font-weight": "normal",
+						}
+	
+// SetProperty sets any property
+// f.SetProperty("font-size", "12pt")
+func (f *Font) SetProperty(s1, s2 string) {
+	key:=s1
+	if _, ok := dict[key]; ok {
+       dict[key]=s2
+	}
+}
+
+func (f *Font) GetProperty(key string) string {
+	if val, ok := dict[key]; ok {
+       return val
+	}
+	return ""
+}
+
+// How to handle document wise properties
+// doc:=NewDocument()
+// doc.Caption.SetProperty()
+// doc.Head1.SetProperty()
+// doc.Head2.SetProperty()
+// doc.Paragraph.Properties("parindent": "0pt", etc)
 
 // CaptionStyle is a datastructure for formatting captions of
 // figures and tables.
 type CaptionStyle struct {
-	listentry     string
-	heading       string
+	listentry string
+	heading   string
 
-	format        string // plain hang etc
-	
+	format string // plain hang etc
+
 	// Indent from second line onwards.
 	indention     string
 	labelformat   string
 	labelsep      string
 	textformat    string
 	justification string
-	font          string
-	labelfont     string
-	textfont      string
+
+	// fonts and text decorations
+	Font
+	labelfont string
+	textfont  string
 
 	// Caption margin
-	Margin       
+	Margin
 
-	// Width 
-	Width         string
-	style         string
-	skips         string
-	position      string
+	// Width
+	Width    string
+	style    string
+	skips    string
+	position string
 
 	// parskip only useful for
-	parskip       string
+	parskip string
 	// the name of the current environment
-	hangindent    string
+	hangindent string
 	// name=Fig.
 	name string
 	// the \caption command can typeset captions for
@@ -136,11 +231,11 @@ type CaptionStyle struct {
 	// hence included here
 	reflabel string
 
-	buf  bytes.Buffer
+	buf bytes.Buffer
 }
 
-
-func (c *CaptionStyle) New() *CaptionStyle {
+func New() *CaptionStyle {
+	c := &CaptionStyle{}
 	c.Margin.Left = "0pt"
 	c.Margin.Right = "0pt"
 	c.Width = "\\textwidth"
@@ -149,8 +244,6 @@ func (c *CaptionStyle) New() *CaptionStyle {
 	c.format = ""
 	return c
 }
-
-
 
 // RefLabel sets the refLabel field. It is used
 // to reference a table by a label. See LaTeX
@@ -181,9 +274,8 @@ func DeclareCaptionStyle() {
 
 }
 
-
 // Caption sets the caption of an environment such as that of a figure
-// or a table.
+// or a table. This is the user entry command.
 func (c *CaptionStyle) Caption(s ...string) string {
 	// we do not have any special list entry text
 	if len(s) == 1 {
